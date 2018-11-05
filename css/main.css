@@ -5,7 +5,6 @@
  * Site Styles
  *****************************************************************************/
 aside#social{
-    background: Lime;
     width: 200px;
     height: 200px;
     position: fixed;
@@ -23,6 +22,8 @@ aside#social:hover ul.social-links{
  html {
      margin: 0;
      padding: 0;
+     background-repeat: no-repeat;
+     background-size: cover;
  }
  header{
      height: 300px;
@@ -33,7 +34,6 @@ aside#social:hover ul.social-links{
  }
 
 footer{
-    background: grey;
 }
 section{
     padding-top: 50px;
@@ -43,13 +43,13 @@ section{
 }
 
 section#watch{
-    background: yellow;
+
 }
 
 section#about{
-    background: blue;
+
 }
 
 section#listen{
-    background: violet;
+
 }
